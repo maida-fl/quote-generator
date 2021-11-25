@@ -14,5 +14,5 @@ app.listen(3000, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Quote generator');
+    res.render('index.ejs');
 });
