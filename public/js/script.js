@@ -5,12 +5,13 @@ const twitterBtn = document.querySelector('#twitter');
 const newQuoteBtn = document.querySelector('#new-quote');
 const loader = document.querySelector('#loader');
 
-const loading = function() {
+
+const showLoader = function() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
-const complete = function() {
+const removeLoader = function() {
     if(!loader.hidden) {
     quoteContainer.hidden = false;
     loader.hidden = true;
@@ -18,8 +19,8 @@ const complete = function() {
 }
 
 const getQuote = function(){
-    loading();
-    const proxyUrl = "https://mighty-lowlands-02831.herokuapp.com/" ;
+    showLoader();
+    const proxyUrl = "https://maida-cors-proxy.herokuapp.com/";
     const apiQuotes = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
     // Get quote
     fetch(proxyUrl + apiQuotes)
@@ -42,8 +43,9 @@ const getQuote = function(){
                 quoteText.classList.remove('long-quote');                
             }
             quoteText.innerText = data.quoteText;
+
             // Stop Loader & show quote
-            complete();
+            removeLoader();
         })
         .catch(function(error){
             getQuote();
