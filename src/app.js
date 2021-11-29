@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '../public'))); // le indica a Expre
 app.set('view engine', 'ejs'); // Define que el motor de plantillas que utilizamos es EJS
 app.set('views', path.join(__dirname, '/views')); // Define la ubicación de la carpeta views
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Working on http://localhost:3000');
 });
 
