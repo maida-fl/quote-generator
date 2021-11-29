@@ -27,11 +27,11 @@ body {
 }
 
 .quote-text {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .long-quote {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .fa-quote-left {
@@ -40,7 +40,7 @@ body {
 
 .quote-author {
     margin-top: 15px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     font-style: italic;
 }
