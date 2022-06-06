@@ -1,7 +1,11 @@
 # Quotes
 Web App working with an API for fetching hundreds of quotes and integrated with Twitter
 
+![Quotes - home](https://user-images.githubusercontent.com/88347050/172095806-631c5c95-c785-467f-afc2-4f158233fb53.png)
+![Quotes - Twitter](https://user-images.githubusercontent.com/88347050/172096596-a14dd5fb-2a70-4a3e-8b3b-771ca869529c.png)
+
 ## 🔭 Deployment
+
 https://my-random-quote-generator.herokuapp.com/
 
 ## 📚 Technical details
