@@ -2,7 +2,7 @@
 Web App working with an API for fetching hundreds of quotes and integrated with Twitter
 
 ## 🔭 Deployment
-
+https://my-random-quote-generator.herokuapp.com/
 
 ## 📚 Technical details
 ```
@@ -15,4 +15,4 @@ Built entirely with:
 <br>
 <br>
 
-https://my-random-quote-generator.herokuapp.com/
+
