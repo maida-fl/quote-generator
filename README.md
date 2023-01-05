@@ -6,7 +6,7 @@ Web App working with an API for fetching hundreds of quotes and integrated with 
 
 ## 🔭 Deployment
 
-https://my-random-quote-generator.herokuapp.com/
+https://my-random-quote-generator.onrender.com
 
 ## 📚 Technical details
 ```
