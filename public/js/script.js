@@ -20,7 +20,7 @@ const removeLoader = function() {
 
 const getQuote = function(){
     showLoader();
-    const proxyUrl = "https://maida-cors-proxy.herokuapp.com/";
+    const proxyUrl = "https://cors-y2kl.onrender.com/";
     const apiQuotes = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
     // Get quote
     fetch(proxyUrl + apiQuotes)
